@@ -16,38 +16,29 @@ body {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  vertical-align:top; 
-  width: 420px;
-  float: left;
+  vertical-align: top; 
+  
 
 }
 
 #sidebar {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
-  font-size:        110%;
+  font-size:        105%;
   padding:          15px;
+ 
   vertical-align: top;
-  width: 180px;
-  float: right;
-  position: absolute;
-  top:130px;
-  right: 100px;
-  
-
+ 
 }
 
-footer {
+#footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
-  padding:          15px;
+  padding:          19px;
   margin: 0px 10px 10px 10px;
-  font-size:        90%;
-  clear: right;
-  clear: left;
+  font-size:        95%;
 }
-
 h1 {
   font-size:        120%;
   color:            #954b4b;
@@ -130,6 +121,23 @@ background-color: aqua;
   background-image: url(images/header.gif);
   background-position: -400px 108px;
   width: 400px;
-  height: 108px;
-
+  height: 108px;``                                                                                                                                                                                                                              
+}
+nav{
+  background-color: #954b4b;
+  margin: 10px 10px 0px 10px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+nav li{
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+nav li a:link, nav li a:visited{
+  color: blueviolet;
+  border-bottom: none;
+  font-weight: bold;
+}
+nav li.selected{
+  background-color: aqua;
 }
